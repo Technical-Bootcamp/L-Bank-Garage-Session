@@ -1,4 +1,4 @@
 ---
 mode: 'agent'
 ---
-List all issues from the repository "Technical-Bootcamp/L-Bank-Garage-Session".
+List all open issues from the repository "Technical-Bootcamp/L-Bank-Garage-Session".
