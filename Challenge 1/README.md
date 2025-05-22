@@ -1,6 +1,6 @@
 # Challenge 1: Prompt Engineering
 
-## Goal: Use Copilot to build a `User` class with validation, logging, and docstrings.
+## Goal: Use Copilot to build a `User` class with validation, logging, and docstrings
 
 Instructions:
 

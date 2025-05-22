@@ -1,6 +1,6 @@
 # Challenge 2: Copilot Edit & Agent Mode
 
-## Goal: Refactor a messy script and generate unit tests using Copilot Edit and Agent Mode.
+## Goal: Refactor a messy script and generate unit tests using Copilot Edit and Agent Mode
 
 Instructions:
 
