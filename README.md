@@ -32,7 +32,21 @@ By completing this hands-on project, participants will:
    ```
 
 2. Open the project in your preferred code editor (e.g., Visual Studio Code).
-3. Follow the instructions provided in each challenge folder to complete the tasks.
+3. (Optional) To shell the python development use a virtual environment with following commands:
+
+   ```bash
+   python -m venv .venv
+   .\.venv\Scripts\activate
+   pip install requirements.txt
+   ```
+
+   To close the virtual environment run following command
+
+   ```bash
+   deactivate
+   ```
+
+4. Follow the instructions provided in each challenge folder to complete the tasks.
 
 ## Contribution Guidelines
 
