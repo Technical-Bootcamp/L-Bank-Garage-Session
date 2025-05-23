@@ -2,7 +2,9 @@
 
 ## Purpose of the Project
 
-This project is designed as a hands-on exercise for participants of the Garage Session following the GitHub Copilot Deep Dive presentation. The goal is to provide a practical experience in leveraging GitHub Copilot to solve real-world coding challenges and improve productivity in software development.
+This project is designed as a hands-on exercise for participants of the Garage Session following the GitHub Copilot
+Deep Dive presentation. The goal is to provide a practical experience in leveraging GitHub Copilot to solve real-world
+coding challenges and improve productivity in software development.
 
 ## Challenges in the Workspace
 
@@ -58,6 +60,7 @@ Participants are encouraged to:
 
 ## Feedback
 
-We value your feedback! Please share your thoughts and suggestions about the session and the hands-on project to help us improve future workshops.
+We value your feedback! Please share your thoughts and suggestions about the session and the hands-on project to help us
+improve future workshops.
 
 Happy coding!
