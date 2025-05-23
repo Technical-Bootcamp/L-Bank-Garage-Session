@@ -49,7 +49,7 @@
 <details>
 <summary>Possible resulting files</summary>
 
-## messy_script.py
+### messy_script.py
 
 ```python
 from typing import List
@@ -63,7 +63,7 @@ if __name__ == "__main__":
     print("Sum:", calculate_sum(numbers))
 ```
 
-## test_messy_script.py
+### test_messy_script.py
 
 ```python
 import unittest

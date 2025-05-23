@@ -1,6 +1,6 @@
 # Solution to the challenge 3
 
-## Promts for MCP connection with GitHub
+## Prompts for MCP connection with GitHub
 
 <details>
 
@@ -43,59 +43,88 @@
 
 </details>
 
+## Prompts for Code generation in Ask Mode
+
+<details>
+
+<summary>Click for Solution (utils.py)</summary>
+
+    Generate a new function `get_data` returning and simple data as JSON.
+
+</details>
+
+<details>
+
+<summary>Click for Solution (routes.py)</summary>
+
+    Add a route `/api/data` which gets data from the utils script.
+
+</details>
+
+<details>
+
+<summary>Click for Solution (routes.py)</summary>
+
+    Add a function to register all routes for the provided app from flask.
+
+</details>
+
+<details>
+
+<summary>Click for Solution (app.py)</summary>
+
+    Add registration of routes from #file:routes.py for initialized flask app.
+
+</details>
+
 ## Results
 
 <details>
 <summary>Possible resulting files</summary>
 
-## app.py
+### app.py
 
 ```python
-import routes
 from flask import Flask
-
 app = Flask(__name__)
 
-routes.register(app)
+from routes import register_routes
+register_routes(app)
 
 if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-## routes.py
+### routes.py
 
 ```python
-import utils
+from utils import get_data
 
-def register(app):
-    """
-    Register routes with the Flask app.
-    
-    :param app: Flask application instance
-    """
-    app.add_url_rule("/", "home", home)
-    app.add_url_rule("/api/data", "get_data", get_data)
+def register_routes(app):
+    @app.route("/")
+    def home():
+        return "Welcome to the Flask app!"
 
-def home():
-    return "Welcome to the Flask app!"
-
-def get_data():
-    return utils.get_data()
+    @app.route("/api/data")
+    def api_data():
+        return get_data(), 200, {"Content-Type": "application/json"}
 ```
 
-## utils.py
+### utils.py
 
 ```python
-def helper_function():
-    return "This is a helper function."
+import json
 
 def get_data():
-    """
-    Simulate fetching data from a database or an API.
-    
-    :return: Sample data
-    """
-    return {"name": "John Doe", "age": 30, "city": "New York"}
+    data = {
+        "name": "L-Bank",
+        "challenge": 3,
+        "status": "active"
+    }
+    return json.dumps(data)
+
+def helper_function():
+    return "This is a helper function."
 ```
 
 </details>
