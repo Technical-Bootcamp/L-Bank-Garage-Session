@@ -64,3 +64,6 @@ We value your feedback! Please share your thoughts and suggestions about the ses
 improve future workshops.
 
 Happy coding!
+
+Thank you!
+
